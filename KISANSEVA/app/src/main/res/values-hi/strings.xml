@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">किसान सेवा</string>
+    <string name="lang1">English</string>
+    <string name="lang2">हिंदी</string>
+    <string name="lang3">తెలుగు</string>
+    <string name="sett_reminder_header">अनुस्मारक सेट करें</string>
+    <string name="sett_reminder_label">मुझे याद दिलाना</string>
+    <string name="sett_reminder_desc">हम आपको अपने खर्च की एंट्री करने के लिए याद दिलाएंगे</string>
+    <string name="sett_reminder_time_label">अनुस्मारक समय सेट करें</string>
+    <string name="sett_reminder_time_content">8: 00 बजे</string>
+
+    <string name="title_activity_login">दाखिल करना</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">ईमेल</string>
+    <string name="prompt_password">पासवर्ड (वैकल्पिक)</string>
+    <string name="action_sign_in">हस्ताक्षर या रजिस्टर</string>
+    <string name="action_sign_in_short">दाखिल करना</string>
+    <string name="error_invalid_email">यह ईमेल पता अमान्य है</string>
+    <string name="error_invalid_password">यह पासवर्ड बहुत छोटा है</string>
+    <string name="error_incorrect_password">यह पासवर्ड गलत है</string>
+    <string name="error_field_required">यह फ़ील्ड आवश्यक है</string>
+    <string name="permission_rationale">ईमेल पूर्णता प्रदान करने के लिए संपर्क अनुमतियों की आवश्यकता होती है </string>
+    <string name="logo_of_the_app">ऐप का लोगो</string>
+    <string name="email">ईमेल</string>
+    <string name="mobile_number">मोबाइल नंबर</string>
+    <string name="_4_digit_pin">4-अंकों का पिन</string>
+    <string name="confirm_4_digit_pin">4-अंक पिन की पुष्टि करें</string>
+    <string name="user_full_name">उपयोगकर्ता का पूरा नाम</string>
+    <string name="register">रजिस्टर</string>
+    <string name="already_registered">पहले से पंजीकृत?</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="title_activity_main">मुख्य गतिविधि</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="section_format">हैलो वर्ल्ड सेक्शन: %1$d</string>
+    <string name="logout">लोग आउट</string>
+    <string name="new_user_register">नया उपयोगकर्ता? रजिस्टर</string>
+    <string name="custom_popup">पंजीकरण सफल!</string>
+    <string name="custom_retry">पंजीकरण विफल</string>
+    <string-array name="languages">
+        <item>English</item>
+        <item>हिंदी</item>
+    </string-array>
+    <string name="default_date_format">dd/MM/yyyy</string>
+    <string name="date_format_key">date_format_key</string>
+    <string name="date_format">डेटा प्रारूप</string>
+    <string name="landtext" tools:ignore="ExtraTranslation">भूमि</string>
+    <string name="add_land_details">भूमि का विवरण जोड़ें</string>
+    <string name="landname">भूमि का नाम</string>
+    <string name="save_land_details">भूमि का विवरण सहेजें</string>
+    <string name="crop_area">फसल क्षेत्र</string>
+    <string name="add_field">कोई भी फ़ील्ड जोड़ें</string>
+    <string-array name="land_sizes">
+        <item>एकड़ जमीन</item>
+        <item>वर्ग फुट</item>
+    </string-array>
+
+    <string-array name="crops_grown">
+        <item>गेहूँ</item>
+        <item>मक्का</item>
+        <item>चावल</item>
+        <item>बाजरा</item>
+        <item>फली</item>
+        <item>गन्ना</item>
+        <item>नारियल</item>
+        <item>आम</item>
+        <item>तंबाकू</item>
+        <item>दाल</item>
+        <item>कपास</item>
+        <item>ज्वार</item>
+        <item>पटसन</item>
+        <item>मिर्च</item>
+        <item>लहसुन</item>
+        <item>गोभी</item>
+        <item>हरी मटर</item>
+        <item>आलू</item>
+        <item>टमाटर</item>
+        <item>प्याज</item>
+    </string-array>
+
+    <string-array name="soil_type">
+        <item>कछार का मिट्टी</item>
+        <item>लाल मिट्टी</item>
+        <item>काली मिट्टी</item>
+        <item>बाद की मिट्टी</item>
+    </string-array>
+    <string name="investment">निवेश</string>
+    <string name="initial_capital">शुरुआती पूंजी</string>
+    <string name="advertisements">विज्ञापन</string>
+
+
+    <string name="statistics">आंकड़े</string>
+    <string name="today">आज</string>
+    <string name="last_week">पिछले सप्ताह</string>
+    <string name="last_month">पिछले महीने</string>
+
+
+    <string name="finance_tracker">वित्त ट्रैकर</string>
+    <string name="expenses">व्यय</string>
+    <string name="add_expense">व्यय जोड़ें</string>
+    <string name="select_date">तारीख़ चुनें</string>
+    <string name="choose_land">भूमि चुनें</string>
+    <string name="amount_spent">राशि खर्च</string>
+    <string name="category">वर्ग</string>
+    <string name="sub_category">उपश्रेणी</string>
+    <string name="description">विवरण</string>
+    <string name="save_expense">दर्ज किए गए खर्चों को बचाएं</string>
+    <string name="income">अर्थप्राप्ति</string>
+    <string name="electricity">बिजली</string>
+    <string name="labour">श्रम</string>
+    <string name="machinery_and_fuel">मशीनरी और ईंधन</string>
+    <string name="infrastructure">भूमिकारूप व्यवस्था</string>
+
+    <string-array name="chemicals_used">
+        <item>कीटनाशक</item>
+        <item>शाकनाशी</item>
+        <item>कीटनाशी औरक्षित</item>
+        <item>कवकनाशी</item>
+    </string-array>
+
+    <string-array name="seeds_used">
+        <item>मटर के बीज</item>
+        <item>हरे चने के बीज</item>
+        <item>मिर्च के बीज</item>
+        <item>दालों के बीज</item>
+        <item>फलियां बीज</item>
+        <item>गेहूं के बीज</item>
+        <item>चावल के बीज</item>
+        <item>मक्का के बीज</item>
+    </string-array>
+
+    <string name="title_activity_settings">सेटिंग्स</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">सामान्य</string>
+
+    <string name="pref_title_social_recommendations">सामाजिक अनुशंसाएँ सक्षम करें</string>
+    <string name="pref_description_social_recommendations">लोगों के लिए आपके संदेश इतिहास के आधार पर संपर्क करने की सिफारिशें
+    </string>
+
+    <string name="pref_title_display_name">प्रदर्शित होने वाला नाम</string>
+    <string name="pref_default_display_name">जॉन स्मिथ</string>
+
+    <string name="pref_title_add_friends_to_messages">संदेशों में मित्रों को जोड़ें</string>
+    <string-array name="pref_example_list_titles">
+        <item>सदैव</item>
+        <item>जब संभव</item>
+        <item>कभी नहीँ</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">डेटा और सिंक</string>
+
+    <string name="pref_title_sync_frequency">सिंक आवृत्ति</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 मिनट</item>
+        <item>30 मिनट</item>
+        <item>1 घंटा</item>
+        <item>3 घंटे</item>
+        <item>6 घंटे</item>
+        <item>कभी नहीँ</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>प्रवेश 1</item>
+        <item>प्रवेश 2</item>
+        <item>प्रवेश 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">सिस्टम सिंक सेटिंग्स</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">सूचनाएं</string>
+
+    <string name="pref_title_new_message_notifications">नई संदेश सूचनाएं</string>
+
+    <string name="pref_title_ringtone">रिंगटोन</string>
+    <string name="pref_ringtone_silent">मौन</string>
+
+    <string name="pref_title_vibrate">कंपन</string>
+    <string name="title_activity_mixed_cropping">मिश्रित फसल</string>
+    <string name="title_home">होम</string>
+    <string name="title_dashboard">नियंत्रण-पट्ट</string>
+    <string name="title_notifications">सूचनाएं</string>
+
+
+    <string name="daily_expenses">दैनिक खर्चे</string>
+    <string name="loan_tracker">ऋण ट्रैकर</string>
+    <string name="lands">भूमि</string>
+    <string name="advices">सलाह</string>
+    <string name="retailing">फुटकर</string>
+    <string name="notifications">सूचनाएं</string>
+    <string name="profile">प्रोफाइल</string>
+    <string name="government_policies">सरकारी नीतियां</string>
+    <string name="mixed_cropping">मिश्रित फसल</string>
+    <string name="assistance">सहायता</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="help">मदद</string>
+    <string name="loginheadertext">लॉग इन करें</string>
+    <string name="registerationheadertext">पंजीकरण</string>
+
+    <string-array name="mixed_cropping">
+        <item>गेहूँ</item>
+        <item>शर्त: गेहूं</item>
+        <item>जौ</item>
+        <item>जई</item>
+        <item>राई और सरसों</item>
+        <item>पीली सरसों</item>
+        <item>अलसी का बीज</item>
+        <item>कुसुम</item>
+        <item>रबी मक्का</item>
+        <item>बेबी कॉर्न</item>
+        <item>ग्राम</item>
+        <item>मटर</item>
+        <item>मसूर</item>
+        <item>रब्बी की फलियाँ</item>
+        <item>बरसीम</item>
+    </string-array>
+
+    <string name="bank_loan">बैंक ऋण</string>
+    <string name="money_lender">साहूकार</string>
+
+
+    <string name="wheat">गेहूँ</string>
+    <string name="durum_wheat">शर्त: गेहूं</string>
+    <string name="barley">जौ</string>
+    <string name="oat">जई</string>
+    <string name="rye_mustard">राई और सरसों</string>
+    <string name="yellow_mustard">पीली सरसों</string>
+    <string name="linseed">अलसी का बीज</string>
+    <string name="kusum">कुसुम</string>
+    <string name="rabi_maize">रबी मक्का</string>
+    <string name="baby_corn">बेबी कॉर्न</string>
+    <string name="gram">ग्राम</string>
+    <string name="peas">मटर</string>
+    <string name="lentil">मसूर</string>
+    <string name="rabbi_beans">रब्बी की फलियाँ</string>
+    <string name="barseem">बरसीम</string>
+
+    <string name="mcwheat">मिश्रित फसल-गेहूँ</string>
+    <string name="mcdurum_wheat">मिश्रित फसल-शर्त: गेहूं</string>
+    <string name="mcbarley">मिश्रित फसल-जौ</string>
+    <string name="mcoat">मिश्रित फसल-जई</string>
+    <string name="mcrye_mustard">मिश्रित फसल-राई और सरसों</string>
+    <string name="mcyellow_mustard">पमिश्रित फसल-ीली सरसों</string>
+    <string name="mclinseed">मिश्रित फसल-अलसी का बीज</string>
+    <string name="mckusum">मिश्रित फसल-कुसुम</string>
+    <string name="mcrabi_maize">मिश्रित फसल-रबी मक्का</string>
+    <string name="mcbaby_corn">मिश्रित फसल-बेबी कॉर्न</string>
+    <string name="mcgram">मिश्रित फसल-ग्राम</string>
+    <string name="mcpeas">मिश्रित फसल-मटर</string>
+    <string name="mclentil">मिश्रित फसल-मसूर</string>
+    <string name="mcrabbi_beans">मिश्रित फसल-रब्बी की फलियाँ</string>
+    <string name="mcbarseem">मिश्रित फसल-बरसीम</string>
+
+    <string-array name="loan_type">
+        <item>Bank loan</item>
+        <item>Money Lender</item>
+    </string-array>
+    <string-array name="tenure">
+        <item>3</item>
+        <item>6</item>
+        <item>8</item>
+        <item>12</item>
+    </string-array>
+
+    <string name="reminder">स्मरण-पत्र</string>
+    <string name="record_income">आय रिकॉर्ड करें</string>
+    <string name="retry_text">पुन: प्रयास करें</string>
+    <string name="match_pin_error">पिन और कन्फर्म पिन मेल नहीं खाते</string>
+    <string name="_4_digit_pin_error">पिन 4 अंकों का होना चाहिए</string>
+    <string name="user_fullname_error">उपयोगकर्ता का पूरा नाम कम से कम 3 वर्ण लंबा होना चाहिए</string>
+    <string name="email_error">अवैध ईमेल!</string>
+    <string name="mobile_number_error">मोबाइल नंबर 10 अंकों का होना चाहिए!</string>
+    <string name="kisan_seva_expenses">किसान सेवा-व्यय</string>
+    <string name="kisan_seva_income">किसान सेवा-आय</string>
+    <string name="kisan_seva_loans">किसान सेवा-ऋण</string>
+    <string name="kisan_seva_lands">किसान सेवा-भूमि</string>
+    <string name="kisan_seva_advices">किसान सेवा-सलाह</string>
+    <string name="kisan_seva_retailing">किसान सेवा-फुटकर</string>
+    <string name="kisan_seva_notifications">किसान सेवा-सूचनाएं</string>
+    <string name="kisan_seva_profile">किसान सेवा-प्रोफाइल</string>
+    <string name="kisan_seva_govt_policies">किसान सेवा-सरकारी नीतियां</string>
+    <string name="kisan_seva_mixed_cropping">किसान सेवा-मिश्रित फसल</string>
+    <string name="kisan_seva_assistance">किसान सेवा-सहायता</string>
+    <string name="kisan_seva_reminder">किसान सेवा-अनुस्मारक</string>
+    <string name="kisan_seva_settings">किसान सेवा-सेटिंग्स</string>
+    <string name="kisan_seva_help">किसान सेवा-मदद</string>
+    <string name="kisan_seva_chatbot">किसान सेवा-सहायक</string>
+    <string name="kisan_seva_maps">किसान सेवा-नक्शा</string>
+    <string name="kisan_seva_statistics">किसान सेवा-आंकड़े</string>
+    <string name="tip_of_the_day">आज का सुझाव</string>
+    <string name="weather_alert">मौसम चेतावनी</string>
+    <string name="tip_1">अधिकृत एजेंसियों / डीलरों से क्षेत्र के लिए अनुशंसित उच्च उपज वाली किस्मों / संकरों का प्रमाणित बीज।</string>
+    <string name="tip_2">रोग की घटनाओं को कम करने के लिए अनुशंसित कवकनाशी के साथ बीज का उपचार करें।</string>
+    <string name="tip_3">राज्य कृषि विश्वविद्यालय द्वारा निर्धारित दिशानिर्देशों के अनुसार नर्सरी बेड में धान के पूर्व अंकुरित बीज की बुवाई करें।</string>
+    <string name="tip_4">बुवाई के समय नर्सरी बेड में खेत यार्ड खाद, मैक्रो और सूक्ष्म पोषक तत्वों की अनुशंसित खुराक का उपयोग करें।</string>
+    <string name="tip_5">एसआरआई, मैकेनिकल और सामान्य अभ्यास जैसे रोपण प्रणालियों के लिए नर्सरी की स्थापना वैज्ञानिक सिफारिश के अनुसार होनी चाहिए।</string>
+    <string name="tip_6">पोषक तत्व की स्थिति और सिफारिशों के लिए मिट्टी का परीक्षण करवाएं।</string>
+    <string name="tip_7">राज्य कृषि विश्वविद्यालय द्वारा निर्धारित प्रमुख और सूक्ष्म पोषक तत्वों के लिए सामान्य सिफारिशों का पालन करें।</string>
+    <string name="tip_8">क्षेत्र की तैयारी के समय राज्य कृषि विश्वविद्यालय की सिफारिश के अनुसार एसिड मिट्टी @ 2-4 क्विंटल / हेक्टेयर के लिए चूना / सीमित सामग्री लागू करें।</string>
+    <string name="tip_9">चावल की किस्मों / संकरों के मिनी किट एनएफएसएम के तहत वितरित किए जा रहे हैं। इच्छुक किसान राज्य के कृषि विभाग के अधिकारियों से संपर्क कर सकते हैं।</string>
+    <string name="statistics_graphs">रेखाचित्र </string>
+    <string name="market_selling">मन्डी मूल्य</string>
+</resources>

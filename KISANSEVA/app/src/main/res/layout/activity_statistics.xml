@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lineartab"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="10dip"
+    tools:context=".Statistics">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:orientation="horizontal"
+        android:paddingTop="10dip">
+
+
+        <Button
+            android:id="@+id/buttoday"
+            android:layout_width="132dp"
+            android:layout_height="84dp"
+            android:text="@string/today" />
+
+        <Button
+            android:id="@+id/butweek"
+            android:layout_width="wrap_content"
+            android:layout_height="84dp"
+            android:layout_weight="1"
+            android:text="@string/last_week" />
+
+        <Button
+            android:id="@+id/butmon"
+            android:layout_width="wrap_content"
+            android:layout_height="84dp"
+            android:layout_weight="1"
+            android:text="@string/last_month" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/laytod"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barIdtoday"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+
+        </com.github.mikephil.charting.charts.BarChart>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layweek"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barIdweek"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+
+        </com.github.mikephil.charting.charts.BarChart>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/laymonth"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barIdmonth"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+
+        </com.github.mikephil.charting.charts.BarChart>
+    </LinearLayout>
+
+
+</LinearLayout>

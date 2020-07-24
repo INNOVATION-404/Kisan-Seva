@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#66cc33</color>
+    <color name="colorPrimaryDark">#34af23</color>
+    <color name="colorAccent">#d6ffd0</color>
+    <color name="themeprimary">#f3bc55</color>
+
+    <color name="Background">#ffffff</color>
+
+    <color name="selected">#d2cbcb</color>
+    <color name="unselected">#ffffff</color>
+    <color name="holo_light_primary">#3344aa</color>
+    <color name="background_holo_light">#ffffff</color>
+    <color name="primary_text_holo_light">#333333</color>
+    <color name="primary_text_holo_dark">#26710d</color>
+    <color name="textcolorHeader">#069ECF</color>
+    <color name="textColorPrimary">#000000</color>
+    <color name="textColorSecondary">#A5A5A5</color>
+
+    <!--switch color-->
+
+    <color name="thumb_active">#069ECF</color>
+    <color name="track_active">#66069ECF</color>
+
+    <color name="thumb_inactive">#A5A5A5</color>
+    <color name="track_inactive">#66A5A5A5</color>
+</resources>

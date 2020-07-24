@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.kisanseva.kisanseva.ui.SettingsActivity"
+    android:theme="@style/Theme.AppCompat" android:background="#ffffff">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="444dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/choosing"
+                android:layout_width="0dp"
+                android:layout_height="86dp"
+                android:layout_weight="0.6"
+                android:gravity="center"
+                android:text="Language:"
+                android:textColor="@color/browser_actions_text_color"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/langselect"
+                android:layout_width="0dp"
+                android:layout_height="47dp"
+                android:layout_weight="0.4"
+                android:entries="@array/languages"
+                android:background="#f3f3f3"
+
+                android:spinnerMode="dropdown" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:background="#ffffff">
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="SAVE" />
+
+    </LinearLayout>
+
+    </LinearLayout>

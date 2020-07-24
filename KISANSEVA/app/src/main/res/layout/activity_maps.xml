@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:layout_weight="1">
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android" xmlns:map="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:id="@+id/map" android:name="com.google.android.gms.maps.SupportMapFragment" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/B_search" android:layout_alignParentStart="true" android:layout_alignParentBottom="true" android:layout_weight="0.7"/>
+    <Button android:id="@+id/B_search" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/map" android:layout_above="@+id/main" android:layout_alignParentTop="true" android:background="@color/colorPrimaryDark" android:text="Retailers"/>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent" android:layout_width="match_parent" android:layout_weight="0.3">
+        <LinearLayout android:id="@+id/main" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/B_search" android:background="#fff" android:orientation="vertical">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="15dp">
+                <ImageView android:id="@+id/img1" android:layout_width="150px" android:layout_height="150px" android:layout_alignParentStart="true" android:layout_alignParentLeft="true" android:layout_toLeftOf="@+id/lay1" android:src="@android:drawable/btn_star"/>
+                <LinearLayout android:id="@+id/lay1" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentEnd="true" android:layout_alignParentRight="true" android:layout_marginEnd="15dp" android:layout_marginRight="15dp" android:orientation="vertical">
+                    <TextView android:id="@+id/name1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@id/desc1" android:textColor="#000" android:text="Shiv Shakti Beej Bhandar" android:textStyle="bold"/>
+                    <TextView android:id="@+id/desc1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/name1" android:textColor="#000" android:text="Millineum Plaza to Amardeep Talkis Road,Baijnathpura Ph.no+91 888913330"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="15dp">
+                <ImageView android:id="@+id/img2" android:layout_width="150px" android:layout_height="150px" android:layout_alignParentStart="true" android:layout_alignParentLeft="true" android:layout_toLeftOf="@+id/lay2" android:src="@android:drawable/btn_star"/>
+                <LinearLayout android:id="@+id/lay2" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentEnd="true" android:layout_alignParentRight="true" android:layout_marginEnd="15dp" android:layout_marginRight="15dp" android:orientation="vertical">
+                    <TextView android:id="@+id/name2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@id/desc2" android:textColor="#000" android:text="Sambhav Agro Industry" android:textStyle="bold"/>
+                    <TextView android:id="@+id/desc2" android:textColor="#000" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/name2" android:text="Shop no:65,Agrasena Chowk,Bhaisthan Rd, Bhaisthan, Raipur Ph no. 090392 26260"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="15dp">
+                <ImageView android:id="@+id/img3" android:layout_width="150px" android:layout_height="150px" android:layout_alignParentStart="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_toLeftOf="@+id/lay3" android:src="@android:drawable/btn_star"/>
+                <LinearLayout android:id="@+id/lay3" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentRight="true" android:orientation="vertical">
+                    <TextView android:id="@+id/name3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@id/desc3" android:textColor="#000" android:text="Agriconic Machinery" android:textStyle="bold"/>
+                    <TextView android:id="@+id/desc3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/name3" android:textColor="#000" android:text="Ring Road No.1 In front of State Bank of India, Kushalpur Ph no: 094791 50238"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="15dp">
+                <ImageView android:id="@+id/img4" android:layout_width="150px" android:layout_height="150px" android:layout_alignParentStart="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_toLeftOf="@+id/lay4" android:src="@android:drawable/btn_star"/>
+                <LinearLayout android:id="@+id/lay4" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentRight="true" android:orientation="vertical">
+                    <TextView android:id="@+id/name4" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#000" android:layout_above="@id/desc4" android:text="Bahuvida Limited" android:textStyle="bold"/>
+                    <TextView android:id="@+id/desc4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/name4" android:textColor="#000" android:text="House no: 55, Civil Lines\n Raipur - Chhattisgarh ph no: 040 2355 8858"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="15dp">
+                <ImageView android:id="@+id/img5" android:layout_width="150px" android:layout_height="150px" android:layout_alignParentStart="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_toLeftOf="@+id/lay5" android:src="@android:drawable/btn_star"/>
+                <LinearLayout android:id="@+id/lay5" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentRight="true" android:orientation="vertical">
+                    <TextView android:id="@+id/name5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@id/desc5" android:textColor="#000" android:text="National Seed Corporation Ltd" android:textStyle="bold"/>
+                    <TextView android:id="@+id/desc5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/name5" android:textColor="#000" android:text="32/1068, Shyam nager, Indra chowk, Raipur Ph no: 040 2773 1152"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

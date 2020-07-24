@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="logout">Log Out</string>
+    <string name="new_user_register">New User? Register</string>
+    <string-array name="land_sizes">
+        <item>Acres</item>
+        <item>Square Feet</item>
+
+    </string-array>
+    <string-array name="crops_grown">
+        <item>Wheat</item>
+        <item>Corn</item>
+        <item>Rice</item>
+        <item>Millet</item>
+        <item>Legume</item>
+        <item>Sugarcane</item>
+        <item>Tobacco</item>
+
+    </string-array>
+    <string name="default_date_format">dd/MM/yyyy</string>
+    <string name="date_format_key">date_format_key</string>
+    <string name="date_format">Date Format</string>
+    <string-array name="languages">
+        <item>English</item>
+        <item>हिंदी</item>
+    </string-array>
+    <string name="custom_popup">Registration Successful!</string>
+    <string name="custom_retry">Registration Failed</string>
+    <string name="lang1">English</string>
+    <string name="lang2">हिंदी</string>
+    <string name="lang3">తెలుగు</string>
+    <string name="sett_reminder_header">Set Reminder</string>
+    <string name="sett_reminder_label">Remind Me</string>
+    <string name="sett_reminder_desc">We will remind you to make entiries of your expense</string>
+    <string name="sett_reminder_time_label">Set Reminder Time</string>
+    <string name="sett_reminder_time_content">8 : 00 PM</string>
+    <string name="wheat">Wheat</string>
+    <string name="durum_wheat">Durum Wheat</string>
+    <string name="barley">Barley</string>
+    <string name="oat">Oat</string>
+    <string name="rye_mustard">Rye and mustard</string>
+    <string name="yellow_mustard">Yellow mustard</string>
+    <string name="linseed">Linseed</string>
+    <string name="kusum">Kusum</string>
+    <string name="rabi_maize">Rabi Maize</string>
+    <string name="baby_corn">Baby Corn</string>
+    <string name="gram">Gram</string>
+    <string name="peas">Peas</string>
+    <string name="lentil">Lentil</string>
+    <string name="rabbi_beans">Rabbi Beans</string>
+    <string name="barseem">Barseem</string>
+
+    <string name="mcwheat">Mixed Cropping-Wheat</string>
+    <string name="mcdurum_wheat">Mixed Cropping-Durum Wheat</string>
+    <string name="mcbarley">Mixed Cropping-Barley</string>
+    <string name="mcoat">Mixed Cropping-Oat</string>
+    <string name="mcrye_mustard">Mixed Cropping-Rye and mustard</string>
+    <string name="mcyellow_mustard">Mixed Cropping-Yellow mustard</string>
+    <string name="mclinseed">Mixed Cropping-Linseed</string>
+    <string name="mckusum">Mixed Cropping-Kusum</string>
+    <string name="mcrabi_maize">Mixed Cropping-Rabi Maize</string>
+    <string name="mcbaby_corn">Mixed Cropping-Baby Corn</string>
+    <string name="mcgram">Mixed Cropping-Gram</string>
+    <string name="mcpeas">Mixed Cropping-Peas</string>
+    <string name="mclentil">Mixed Cropping-Lentil</string>
+    <string name="mcrabbi_beans">Mixed Cropping-Rabbi Beans</string>
+    <string name="mcbarseem">Mixed Cropping-Barseem</string>
+    <string-array name="loan_type">
+        <item>Bank loan</item>
+        <item>Money Lender</item>
+    </string-array>
+    <string-array name="tenure">
+        <item>3</item>
+        <item>6</item>
+        <item>8</item>
+        <item>12</item>
+    </string-array>
+    <string name="record_income">Record Income</string>
+    <string name="reminder">Reminder</string>
+    <string name="retry_text">Retry</string>
+    <string name="match_pin_error">PIN and Confirm PIN does not match</string>
+    <string name="_4_digit_pin_error">PIN should be 4 digits</string>
+    <string name="user_fullname_error">User full name should be at least 3 characters long</string>
+    <string name="email_error">Invalid Email!</string>
+    <string name="mobile_number_error">Mobile number should be 10 digits!</string>
+    <string name="statistics_graphs">Statistics</string>
+    <string name="market_selling">Market Selling</string>
+</resources>

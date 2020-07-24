@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "472196909451",
+    "firebase_url": "https://kisantrial.firebaseio.com",
+    "project_id": "kisantrial",
+    "storage_bucket": "kisantrial.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472196909451:android:18df3b6d8d0aae39",
+        "android_client_info": {
+          "package_name": "com.kisanseva.kisanseva"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472196909451-3n7n8v13reoh1bbdg1rn98t06tdqhp07.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4cbqsyAjQaA5C2XCuNaICkI0X_eGx5_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472196909451-3n7n8v13reoh1bbdg1rn98t06tdqhp07.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
